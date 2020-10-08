@@ -40,9 +40,6 @@ public class PropertyControllerTest {
         }
     }
 	
-	
-	
-	
     static testMethod void getSimilarProperties() {
         Boolean success = true;
         try {
