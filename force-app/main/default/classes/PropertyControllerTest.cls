@@ -39,7 +39,6 @@ public class PropertyControllerTest {
 	        System.assert(success);
         }
     }
-
     static testMethod void getSimilarProperties() {
         Boolean success = true;
         try {
