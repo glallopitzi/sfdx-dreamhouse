@@ -108,8 +108,7 @@ global with sharing class EinsteinVisionController {
         String accessToken = EinsteinVisionController.getAccessToken();
         HttpRequest req = new HttpRequest();
         req.setMethod('GET');    
-        String endpoint = VISION_API + '/datasets/' + datasetId + '/models';
-        req.setEndpoint(endpoint);
+        req.setEndpoint(VISION_API + '/datasets');
         req.setHeader('Authorization', 'Bearer ' + accessToken);
         req.setHeader('Cache-Control', 'no-cache');
 		try {
