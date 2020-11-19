@@ -1,5 +1,5 @@
 @isTest
-public class EinsteinVisionControllerTest {
+public with sharing class EinsteinVisionControllerTest {
     
     static testMethod void testPredict() {
 	insert new Dreamhouse_Setting__c(Einstein_Vision_Email__c = 'user@host.com');
