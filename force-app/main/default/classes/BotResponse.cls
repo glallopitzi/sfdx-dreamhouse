@@ -1,4 +1,4 @@
-public class BotResponse {
+public sharing class BotResponse {
 
     @AuraEnabled public List<BotMessage> messages { get; set; }
     @AuraEnabled public Map<String, String> session { get; set; }
